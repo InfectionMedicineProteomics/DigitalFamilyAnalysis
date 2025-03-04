@@ -1,0 +1,12 @@
+libraries:
+  spectral_library: '/path/to/spectral/library'
+
+spectra_extension: "d"
+
+base_file_paths:
+  spectra: '/path/to/spectra/files'
+  results: '/path/to/results/destination'
+
+diann:
+  exe: '/path/to/diann/exe'
+  threads: 25
