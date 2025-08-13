@@ -50,51 +50,11 @@ argon2-cffi-bindings = "*"
 
 [[package]]
 name = "argon2-cffi-bindings"
-version = "21.2.0"
-description = "Low-level CFFI bindings for Argon2"
-optional = false
-python-versions = ">=3.6"
-groups = ["main"]
-markers = "python_version >= \"3.14\""
-files = [
-    {file = "argon2-cffi-bindings-21.2.0.tar.gz", hash = "sha256:bb89ceffa6c791807d1305ceb77dbfacc5aa499891d2c55661c6459651fc39e3"},
-    {file = "argon2_cffi_bindings-21.2.0-cp36-abi3-macosx_10_9_x86_64.whl", hash = "sha256:ccb949252cb2ab3a08c02024acb77cfb179492d5701c7cbdbfd776124d4d2367"},
-    {file = "argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9524464572e12979364b7d600abf96181d3541da11e23ddf565a32e70bd4dc0d"},
-    {file = "argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b746dba803a79238e925d9046a63aa26bf86ab2a2fe74ce6b009a1c3f5c8f2ae"},
-    {file = "argon2_cffi_bindings-21.2.0-cp36-abi3-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:58ed19212051f49a523abb1dbe954337dc82d947fb6e5a0da60f7c8471a8476c"},
-    {file = "argon2_cffi_bindings-21.2.0-cp36-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:bd46088725ef7f58b5a1ef7ca06647ebaf0eb4baff7d1d0d177c6cc8744abd86"},
-    {file = "argon2_cffi_bindings-21.2.0-cp36-abi3-musllinux_1_1_i686.whl", hash = "sha256:8cd69c07dd875537a824deec19f978e0f2078fdda07fd5c42ac29668dda5f40f"},
-    {file = "argon2_cffi_bindings-21.2.0-cp36-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:f1152ac548bd5b8bcecfb0b0371f082037e47128653df2e8ba6e914d384f3c3e"},
-    {file = "argon2_cffi_bindings-21.2.0-cp36-abi3-win32.whl", hash = "sha256:603ca0aba86b1349b147cab91ae970c63118a0f30444d4bc80355937c950c082"},
-    {file = "argon2_cffi_bindings-21.2.0-cp36-abi3-win_amd64.whl", hash = "sha256:b2ef1c30440dbbcba7a5dc3e319408b59676e2e039e2ae11a8775ecf482b192f"},
-    {file = "argon2_cffi_bindings-21.2.0-cp38-abi3-macosx_10_9_universal2.whl", hash = "sha256:e415e3f62c8d124ee16018e491a009937f8cf7ebf5eb430ffc5de21b900dad93"},
-    {file = "argon2_cffi_bindings-21.2.0-pp37-pypy37_pp73-macosx_10_9_x86_64.whl", hash = "sha256:3e385d1c39c520c08b53d63300c3ecc28622f076f4c2b0e6d7e796e9f6502194"},
-    {file = "argon2_cffi_bindings-21.2.0-pp37-pypy37_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:2c3e3cc67fdb7d82c4718f19b4e7a87123caf8a93fde7e23cf66ac0337d3cb3f"},
-    {file = "argon2_cffi_bindings-21.2.0-pp37-pypy37_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6a22ad9800121b71099d0fb0a65323810a15f2e292f2ba450810a7316e128ee5"},
-    {file = "argon2_cffi_bindings-21.2.0-pp37-pypy37_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:f9f8b450ed0547e3d473fdc8612083fd08dd2120d6ac8f73828df9b7d45bb351"},
-    {file = "argon2_cffi_bindings-21.2.0-pp37-pypy37_pp73-win_amd64.whl", hash = "sha256:93f9bf70084f97245ba10ee36575f0c3f1e7d7724d67d8e5b08e61787c320ed7"},
-    {file = "argon2_cffi_bindings-21.2.0-pp38-pypy38_pp73-macosx_10_9_x86_64.whl", hash = "sha256:3b9ef65804859d335dc6b31582cad2c5166f0c3e7975f324d9ffaa34ee7e6583"},
-    {file = "argon2_cffi_bindings-21.2.0-pp38-pypy38_pp73-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:d4966ef5848d820776f5f562a7d45fdd70c2f330c961d0d745b784034bd9f48d"},
-    {file = "argon2_cffi_bindings-21.2.0-pp38-pypy38_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:20ef543a89dee4db46a1a6e206cd015360e5a75822f76df533845c3cbaf72670"},
-    {file = "argon2_cffi_bindings-21.2.0-pp38-pypy38_pp73-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:ed2937d286e2ad0cc79a7087d3c272832865f779430e0cc2b4f3718d3159b0cb"},
-    {file = "argon2_cffi_bindings-21.2.0-pp38-pypy38_pp73-win_amd64.whl", hash = "sha256:5e00316dabdaea0b2dd82d141cc66889ced0cdcbfa599e8b471cf22c620c329a"},
-]
-
-[package.dependencies]
-cffi = ">=1.0.1"
-
-[package.extras]
-dev = ["cogapp", "pre-commit", "pytest", "wheel"]
-tests = ["pytest"]
-
-[[package]]
-name = "argon2-cffi-bindings"
 version = "25.1.0"
 description = "Low-level CFFI bindings for Argon2"
 optional = false
 python-versions = ">=3.9"
 groups = ["main"]
-markers = "python_version < \"3.14\""
 files = [
     {file = "argon2_cffi_bindings-25.1.0-cp314-cp314t-macosx_10_13_universal2.whl", hash = "sha256:3d3f05610594151994ca9ccb3c771115bdb4daef161976a266f0dd8aa9996b8f"},
     {file = "argon2_cffi_bindings-25.1.0-cp314-cp314t-macosx_10_13_x86_64.whl", hash = "sha256:8b8efee945193e667a396cbc7b4fb7d357297d6234d30a489905d96caabde56b"},
@@ -820,25 +780,11 @@ woff = ["brotli (>=1.0.1) ; platform_python_implementation == \"CPython\"", "bro
 
 [[package]]
 name = "fqdn"
-version = "1.4.0"
-description = "Validate fully-qualified domain names compliant to RFC 1035 and the preferred form in RFC 3686 s. 2."
-optional = false
-python-versions = "*"
-groups = ["main"]
-markers = "python_version >= \"3.14\""
-files = [
-    {file = "fqdn-1.4.0-py3-none-any.whl", hash = "sha256:e935616ae81c9c60a22267593fe8e6af68cecc68549cc71bb9bfbcbbcb383386"},
-    {file = "fqdn-1.4.0.tar.gz", hash = "sha256:30e8f2e685ce87cdace4712fd97c5d09f5e6fa519bbb66e8f188f6a7cb3a5c4e"},
-]
-
-[[package]]
-name = "fqdn"
 version = "1.5.1"
 description = "Validates fully-qualified domain names against RFC 1123, so that they are acceptable to modern bowsers"
 optional = false
 python-versions = ">=2.7, !=3.0, !=3.1, !=3.2, !=3.3, !=3.4, <4"
 groups = ["main"]
-markers = "python_version < \"3.14\""
 files = [
     {file = "fqdn-1.5.1-py3-none-any.whl", hash = "sha256:3a179af3761e4df6eb2e026ff9e1a3033d3587bf980a0b1b2e1e5d08d7358014"},
     {file = "fqdn-1.5.1.tar.gz", hash = "sha256:105ed3677e767fb5ca086a0c1f4bb66ebc3c100be518f0e0d755d9eae164d89f"},
@@ -1082,6 +1028,28 @@ files = [
 pygments = "*"
 
 [[package]]
+name = "ipywidgets"
+version = "8.1.7"
+description = "Jupyter interactive widgets"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "ipywidgets-8.1.7-py3-none-any.whl", hash = "sha256:764f2602d25471c213919b8a1997df04bef869251db4ca8efba1b76b1bd9f7bb"},
+    {file = "ipywidgets-8.1.7.tar.gz", hash = "sha256:15f1ac050b9ccbefd45dccfbb2ef6bed0029d8278682d569d71b8dd96bee0376"},
+]
+
+[package.dependencies]
+comm = ">=0.1.3"
+ipython = ">=6.1.0"
+jupyterlab_widgets = ">=3.0.15,<3.1.0"
+traitlets = ">=4.3.1"
+widgetsnbextension = ">=4.0.14,<4.1.0"
+
+[package.extras]
+test = ["ipykernel", "jsonschema", "pytest (>=3.6.0)", "pytest-cov", "pytz"]
+
+[[package]]
 name = "isoduration"
 version = "20.11.0"
 description = "Operations with ISO 8601 durations"
@@ -1220,6 +1188,26 @@ files = [
 referencing = ">=0.31.0"
 
 [[package]]
+name = "jupyter"
+version = "1.1.1"
+description = "Jupyter metapackage. Install all the Jupyter components in one go."
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "jupyter-1.1.1-py2.py3-none-any.whl", hash = "sha256:7a59533c22af65439b24bbe60373a4e95af8f16ac65a6c00820ad378e3f7cc83"},
+    {file = "jupyter-1.1.1.tar.gz", hash = "sha256:d55467bceabdea49d7e3624af7e33d59c37fff53ed3a350e1ac957bed731de7a"},
+]
+
+[package.dependencies]
+ipykernel = "*"
+ipywidgets = "*"
+jupyter-console = "*"
+jupyterlab = "*"
+nbconvert = "*"
+notebook = "*"
+
+[[package]]
 name = "jupyter-client"
 version = "8.6.3"
 description = "Jupyter protocol implementation and client libraries"
@@ -1241,6 +1229,31 @@ traitlets = ">=5.3"
 [package.extras]
 docs = ["ipykernel", "myst-parser", "pydata-sphinx-theme", "sphinx (>=4)", "sphinx-autodoc-typehints", "sphinxcontrib-github-alt", "sphinxcontrib-spelling"]
 test = ["coverage", "ipykernel (>=6.14)", "mypy", "paramiko ; sys_platform == \"win32\"", "pre-commit", "pytest (<8.2.0)", "pytest-cov", "pytest-jupyter[client] (>=0.4.1)", "pytest-timeout"]
+
+[[package]]
+name = "jupyter-console"
+version = "6.6.3"
+description = "Jupyter terminal console"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "jupyter_console-6.6.3-py3-none-any.whl", hash = "sha256:309d33409fcc92ffdad25f0bcdf9a4a9daa61b6f341177570fdac03de5352485"},
+    {file = "jupyter_console-6.6.3.tar.gz", hash = "sha256:566a4bf31c87adbfadf22cdf846e3069b59a71ed5da71d6ba4d8aaad14a53539"},
+]
+
+[package.dependencies]
+ipykernel = ">=6.14"
+ipython = "*"
+jupyter-client = ">=7.0.0"
+jupyter-core = ">=4.12,<5.0.dev0 || >=5.1.dev0"
+prompt-toolkit = ">=3.0.30"
+pygments = "*"
+pyzmq = ">=17"
+traitlets = ">=5.4"
+
+[package.extras]
+test = ["flaky", "pexpect", "pytest"]
 
 [[package]]
 name = "jupyter-core"
@@ -1433,6 +1446,18 @@ requests = ">=2.31"
 docs = ["autodoc-traits", "jinja2 (<3.2.0)", "mistune (<4)", "myst-parser", "pydata-sphinx-theme", "sphinx", "sphinx-copybutton", "sphinxcontrib-openapi (>0.8)"]
 openapi = ["openapi-core (>=0.18.0,<0.19.0)", "ruamel-yaml"]
 test = ["hatch", "ipykernel", "openapi-core (>=0.18.0,<0.19.0)", "openapi-spec-validator (>=0.6.0,<0.8.0)", "pytest (>=7.0,<8)", "pytest-console-scripts", "pytest-cov", "pytest-jupyter[server] (>=0.6.2)", "pytest-timeout", "requests-mock", "ruamel-yaml", "sphinxcontrib-spelling", "strict-rfc3339", "werkzeug"]
+
+[[package]]
+name = "jupyterlab-widgets"
+version = "3.0.15"
+description = "Jupyter interactive widgets for JupyterLab"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "jupyterlab_widgets-3.0.15-py3-none-any.whl", hash = "sha256:d59023d7d7ef71400d51e6fee9a88867f6e65e10a4201605d2d7f3e8f012a31c"},
+    {file = "jupyterlab_widgets-3.0.15.tar.gz", hash = "sha256:2920888a0c2922351a9202817957a68c07d99673504d6cd37345299e971bb08b"},
+]
 
 [[package]]
 name = "kiwisolver"
@@ -1983,6 +2008,30 @@ example = ["cairocffi (>=1.7)", "contextily (>=1.6)", "igraph (>=0.11)", "momepy
 extra = ["lxml (>=4.6)", "pydot (>=3.0.1)", "pygraphviz (>=1.14)", "sympy (>=1.10)"]
 test = ["pytest (>=7.2)", "pytest-cov (>=4.0)", "pytest-xdist (>=3.0)"]
 test-extras = ["pytest-mpl", "pytest-randomly"]
+
+[[package]]
+name = "notebook"
+version = "7.4.5"
+description = "Jupyter Notebook - A web-based notebook environment for interactive computing"
+optional = false
+python-versions = ">=3.8"
+groups = ["main"]
+files = [
+    {file = "notebook-7.4.5-py3-none-any.whl", hash = "sha256:351635461aca9dad08cf8946a4216f963e2760cc1bf7b1aaaecb23afc33ec046"},
+    {file = "notebook-7.4.5.tar.gz", hash = "sha256:7c2c4ea245913c3ad8ab3e5d36b34a842c06e524556f5c2e1f5d7d08c986615e"},
+]
+
+[package.dependencies]
+jupyter-server = ">=2.4.0,<3"
+jupyterlab = ">=4.4.5,<4.5"
+jupyterlab-server = ">=2.27.1,<3"
+notebook-shim = ">=0.2,<0.3"
+tornado = ">=6.2.0"
+
+[package.extras]
+dev = ["hatch", "pre-commit"]
+docs = ["myst-parser", "nbsphinx", "pydata-sphinx-theme", "sphinx (>=1.3.6)", "sphinxcontrib-github-alt", "sphinxcontrib-spelling"]
+test = ["importlib-resources (>=5.0) ; python_version < \"3.10\"", "ipykernel", "jupyter-server[test] (>=2.4.0,<3)", "jupyterlab-server[test] (>=2.27.1,<3)", "nbval", "pytest (>=7.0)", "pytest-console-scripts", "pytest-timeout", "pytest-tornasync", "requests"]
 
 [[package]]
 name = "notebook-shim"
@@ -3045,6 +3094,26 @@ files = [
 ]
 
 [[package]]
+name = "scikit-base"
+version = "0.12.4"
+description = "Base classes for sklearn-like parametric objects"
+optional = false
+python-versions = "<3.14,>=3.9"
+groups = ["main"]
+files = [
+    {file = "scikit_base-0.12.4-py3-none-any.whl", hash = "sha256:ebb5338813433c86153f22e58d698061eb5442c94313ef4e6ab5c2732b6ab08f"},
+    {file = "scikit_base-0.12.4.tar.gz", hash = "sha256:d452844cb898560dedc5116c5441f348c2b75312cdb8ff4a3d1310456c887591"},
+]
+
+[package.extras]
+all-extras = ["numpy", "pandas"]
+binder = ["jupyter"]
+dev = ["pre-commit", "pytest", "pytest-cov", "scikit-learn (>=0.24.0)"]
+docs = ["Sphinx (!=7.2.0,<9.0.0)", "jupyter", "myst-parser", "nbsphinx (>=0.8.6)", "numpydoc", "pydata-sphinx-theme", "sphinx-design (<0.7.0)", "sphinx-gallery (<0.20.0)", "sphinx-issues (<6.0.0)", "sphinx-panels", "tabulate"]
+linters = ["black", "doc8", "flake8", "flake8-bugbear", "flake8-builtins", "flake8-comprehensions", "flake8-print", "flake8-quotes", "isort", "mypy", "nbqa", "pandas-vet", "pep8-naming", "pydocstyle"]
+test = ["coverage", "numpy", "pandas", "pytest", "pytest-cov", "safety", "scikit-learn (>=0.24.0)", "scipy"]
+
+[[package]]
 name = "scikit-learn"
 version = "1.6.1"
 description = "A set of python modules for machine learning and data mining"
@@ -3264,6 +3333,57 @@ dev = ["ipython"]
 docs = ["mkdocs", "mkdocs-material"]
 lint = ["pre-commit"]
 tests = ["pandas", "pytest", "pytest-cov", "pytest-xdist", "pytz"]
+
+[[package]]
+name = "sktime"
+version = "0.38.4"
+description = "A unified framework for machine learning with time series"
+optional = false
+python-versions = "<3.14,>=3.9"
+groups = ["main"]
+files = [
+    {file = "sktime-0.38.4-py3-none-any.whl", hash = "sha256:7ca8f03a4f552de6926c9f1c4a896767d7ebcc8f5ddbcba8900ac7e4a0ee9361"},
+    {file = "sktime-0.38.4.tar.gz", hash = "sha256:36f98aaf7a6b0e01ada509f2c29e3d397c098d1420cbe180ff3a1b2e01b05fea"},
+]
+
+[package.dependencies]
+joblib = ">=1.2.0,<1.6"
+numpy = ">=1.21,<2.4"
+packaging = "*"
+pandas = ">=1.1,<2.4.0"
+scikit-base = ">=0.6.1,<0.13.0"
+scikit-learn = ">=0.24,<1.8.0"
+scipy = ">=1.2,<2.0.0"
+
+[package.extras]
+alignment = ["dtaidistance (<2.4) ; python_version < \"3.13\"", "dtw-python (>=1.3,<1.6) ; python_version < \"3.13\"", "numba (>=0.53,<0.62) ; python_version < \"3.13\""]
+all-extras = ["arch (>=5.6,<7.1.0) ; python_version < \"3.13\"", "autots (>=0.6.1,<0.7)", "cloudpickle ; python_version < \"3.13\"", "dash (!=2.9.0) ; python_version < \"3.13\"", "dask (>2024.8.2,<2025.2.1) ; python_version < \"3.13\"", "dtaidistance (<2.4) ; python_version < \"3.13\"", "dtw-python ; python_version < \"3.13\"", "esig (==0.9.7) ; python_version < \"3.10\" and platform_machine != \"aarch64\"", "filterpy (>=1.4.5) ; python_version < \"3.11\"", "gluonts (>=0.9) ; python_version < \"3.13\"", "h5py ; python_version < \"3.12\"", "hmmlearn (>=0.2.7) ; python_version < \"3.11\"", "holidays ; python_version < \"3.13\"", "matplotlib (>=3.3.2,!=3.9.1) ; python_version < \"3.13\"", "mne ; python_version < \"3.13\"", "numba (>=0.53,<0.62) ; python_version < \"3.13\"", "optuna (<4.5)", "pmdarima (>=1.8,!=1.8.1,<3.0.0) ; python_version < \"3.12\"", "polars[pandas] (>=0.20,<2.0) ; python_version < \"3.13\"", "prophet (>=1.1) ; python_version < \"3.12\"", "pycatch22 (<0.4.6) ; python_version < \"3.13\"", "pyod (>=0.8) ; python_version < \"3.11\"", "pyts (<0.14.0) ; python_version < \"3.12\"", "ray (>=2.40.0) ; python_version < \"3.13\"", "scikit-optimize ; python_version < \"3.13\"", "scikit_posthocs (>=0.6.5) ; python_version < \"3.13\"", "seaborn (>=0.11) ; python_version < \"3.13\"", "seasonal ; python_version < \"3.13\"", "simdkalman", "skforecast (>=0.12.1,<0.15) ; python_version < \"3.13\"", "skpro (>=2,<2.10.0)", "statsforecast (>=1.0.0,<2.1.0) ; python_version < \"3.13\"", "statsmodels (>=0.12.1) ; python_version < \"3.13\"", "stumpy (>=1.5.1) ; python_version < \"3.11\"", "tbats (>=1.1) ; python_version < \"3.12\"", "temporian (>=0.7.0,!=0.8.0,<0.9.0) ; python_version < \"3.12\" and sys_platform != \"win32\" and platform_machine != \"aarch64\"", "tensorflow (>=2,<2.20) ; python_version < \"3.13\"", "tsfresh (>=0.17) ; python_version < \"3.12\"", "tslearn (>=0.5.2,!=0.6.0,<0.7.0) ; python_version < \"3.11\"", "u8darts (>=0.29.0,<0.32.0) ; python_version < \"3.13\"", "xarray ; python_version < \"3.13\""]
+all-extras-pandas2 = ["arch (>=5.6,<7.1.0) ; python_version < \"3.13\"", "autots (>=0.6.1,<0.7) ; python_version < \"3.13\"", "cloudpickle ; python_version < \"3.13\"", "dash (!=2.9.0) ; python_version < \"3.13\"", "dask (>2024.8.2,<2025.2.1) ; python_version < \"3.13\"", "dtaidistance (<2.4) ; python_version < \"3.13\"", "dtw-python ; python_version < \"3.13\"", "esig (==0.9.7) ; python_version < \"3.10\" and platform_machine != \"aarch64\"", "filterpy (>=1.4.5) ; python_version < \"3.11\"", "gluonts (>=0.9) ; python_version < \"3.13\"", "h5py ; python_version < \"3.12\"", "hmmlearn (>=0.2.7) ; python_version < \"3.11\"", "holidays ; python_version < \"3.13\"", "matplotlib (>=3.3.2,!=3.9.1) ; python_version < \"3.13\"", "mne ; python_version < \"3.13\"", "numba (>=0.53,<0.62) ; python_version < \"3.13\"", "optuna (<4.5)", "pmdarima (>=1.8,!=1.8.1,<3.0.0) ; python_version < \"3.12\"", "polars[pandas] (>=0.20,<2.0) ; python_version < \"3.13\"", "prophet (>=1.1) ; python_version < \"3.12\"", "pycatch22 (<0.4.6) ; python_version < \"3.13\"", "pyod (>=0.8) ; python_version < \"3.11\"", "ray (>=2.40.0) ; python_version < \"3.13\"", "scikit_posthocs (>=0.6.5) ; python_version < \"3.13\"", "seaborn (>=0.11) ; python_version < \"3.13\"", "seasonal ; python_version < \"3.13\"", "simdkalman", "skforecast (>=0.12.1,<0.15) ; python_version < \"3.13\"", "skpro (>=2,<2.10.0)", "statsforecast (>=1.0.0,<2.1.0) ; python_version < \"3.13\"", "statsmodels (>=0.12.1) ; python_version < \"3.13\"", "stumpy (>=1.5.1) ; python_version < \"3.11\"", "tbats (>=1.1) ; python_version < \"3.12\"", "temporian (>=0.7.0,!=0.8.0,<0.9.0) ; python_version < \"3.12\" and sys_platform != \"win32\" and platform_machine != \"aarch64\"", "tensorflow (>=2,<2.20) ; python_version < \"3.13\"", "tsfresh (>=0.17) ; python_version < \"3.12\"", "tslearn (>=0.5.2,!=0.6.0,<0.7.0) ; python_version < \"3.11\"", "u8darts (>=0.29.0,<0.32.0) ; python_version < \"3.13\"", "xarray ; python_version < \"3.13\""]
+annotation = ["hmmlearn (>=0.2.7,<0.4) ; python_version < \"3.13\"", "numba (>=0.53,<0.62) ; python_version < \"3.13\"", "pyod (>=0.8,<1.2) ; python_version < \"3.12\""]
+binder = ["jupyter", "pandas (<2.0.0)", "skchange"]
+classification = ["esig (>=0.9.7,<0.10) ; python_version < \"3.11\" and platform_machine != \"aarch64\"", "numba (>=0.53,<0.62) ; python_version < \"3.13\"", "tensorflow (>=2,<2.20) ; python_version < \"3.13\"", "tsfresh (>=0.17,<0.21) ; python_version < \"3.12\""]
+clustering = ["networkx (<3.5)", "numba (>=0.53,<0.62) ; python_version < \"3.13\"", "ts2vg (<1.3) ; python_version < \"3.13\" and platform_machine != \"aarch64\"", "tslearn (>=0.5.2,!=0.6.0,<0.7.0) ; python_version < \"3.12\""]
+compatibility-tests = ["catboost ; python_version < \"3.13\""]
+cython-extras = ["mrseql (<0.0.3)", "mrsqm ; python_version < \"3.11\"", "numba (<0.62)"]
+dataframe = ["dask (>2024.8.2,<2025.2.1) ; python_version < \"3.13\"", "dask (>2024.8.2,<2025.2.1) ; python_version < \"3.13\""]
+datasets = ["rdata", "requests"]
+dependencies-lower = ["numpy (==1.25.0)", "pandas (==2.0.2)", "scikit-learn (==1.3.0)", "scipy (==1.10.1)"]
+dependencies-lowest = ["numpy (==1.21.0)", "pandas (==1.1.0)", "scikit-learn (==0.24.0)", "scipy (==1.4.0)"]
+detection = ["hmmlearn (>=0.2.7,<0.4) ; python_version < \"3.13\"", "numba (>=0.53,<0.62) ; python_version < \"3.13\"", "pyod (>=0.8,<1.2) ; python_version < \"3.12\""]
+dev = ["backoff", "httpx", "pre-commit", "pytest", "pytest-randomly", "pytest-timeout", "pytest-xdist", "wheel"]
+dl = ["FrEIA ; python_version < \"3.12\"", "accelerate", "einops (>0.7.0) ; python_version < \"3.12\"", "gluonts (>=0.14.3) ; python_version < \"3.12\"", "huggingface-hub (>=0.23.0) ; python_version < \"3.12\"", "hydra-core ; python_version < \"3.13\"", "lightning (>=2.0) ; python_version < \"3.12\"", "neuralforecast (>=1.6.4,<1.8.0) ; python_version < \"3.11\"", "peft (>=0.10.0,<0.14.0) ; python_version < \"3.12\"", "pykan (>=0.2.1,<0.2.9) ; python_version > \"3.9.7\"", "pytorch-forecasting (>=1.0.0,<1.5.0) ; sys_platform != \"darwin\" or python_version != \"3.13\"", "tensorflow (>=2,<2.20) ; python_version < \"3.13\"", "torch ; sys_platform != \"darwin\" or python_version != \"3.13\"", "tqdm", "transformers[torch] (<4.41.0) ; python_version < \"3.12\""]
+docs = ["Sphinx (!=7.2.0,<9.0.0)", "jupyter", "myst-parser", "nbsphinx (>=0.8.6)", "numpydoc", "pydata-sphinx-theme", "sphinx-copybutton", "sphinx-design (<0.7.0)", "sphinx-gallery (<0.20.0)", "sphinx-issues (<6.0.0)", "tabulate"]
+forecasting = ["arch (>=5.6,<7.1) ; python_version < \"3.13\"", "autots (>=0.6.1,<0.7) ; python_version < \"3.13\"", "pmdarima (>=1.8,!=1.8.1,<2.1) ; python_version < \"3.12\"", "prophet (>=1.1,<1.2) ; python_version < \"3.13\"", "skforecast (>=0.12.1,<0.15) ; python_version < \"3.13\"", "skpro (>=2,<2.10.0)", "statsforecast (>=1.0.0,<2.1.0) ; python_version < \"3.13\"", "statsmodels (>=0.12.1,<0.15) ; python_version < \"3.13\"", "tbats (>=1.1,<1.2) ; python_version < \"3.12\""]
+mlflow = ["mlflow (<4.0)"]
+mlflow-tests = ["boto3", "botocore", "mlflow (<4.0)", "moto"]
+mlflow2 = ["mlflow (<3.0)"]
+networks = ["tensorflow (>=2,<2.20) ; python_version < \"3.13\""]
+numpy1 = ["numpy (<2.0.0)"]
+pandas1 = ["pandas (<2.0.0)"]
+param-est = ["seasonal (>=0.3.1,<0.4) ; python_version < \"3.13\"", "statsmodels (>=0.12.1,<0.15) ; python_version < \"3.13\""]
+regression = ["numba (>=0.53,<0.62) ; python_version < \"3.13\"", "tensorflow (>=2,<2.20) ; python_version < \"3.13\""]
+tests = ["pytest (>=7.4,<8.5)", "pytest-randomly (>=3.15,<3.17)", "pytest-timeout (>=2.1,<2.5)", "pytest-xdist (>=3.3,<3.8)"]
+transformations = ["esig (>=0.9.7,<0.10) ; python_version < \"3.11\" and platform_machine != \"aarch64\"", "filterpy (>=1.4.5,<1.5) ; python_version < \"3.13\"", "holidays (>=0.29,<0.59) ; python_version < \"3.13\"", "mne (>=1.5,<1.9) ; python_version < \"3.13\"", "numba (>=0.53,<0.62) ; python_version < \"3.13\"", "pycatch22 (>=0.4,<0.4.6) ; python_version < \"3.13\"", "simdkalman", "statsmodels (>=0.12.1,<0.15) ; python_version < \"3.13\"", "stumpy (>=1.5.1,<1.13) ; python_version < \"3.12\"", "temporian (>=0.7.0,!=0.8.0,<0.9.0) ; python_version < \"3.12\" and sys_platform != \"win32\" and platform_machine != \"aarch64\"", "tsfresh (>=0.17,<0.21) ; python_version < \"3.12\""]
 
 [[package]]
 name = "sniffio"
@@ -3568,7 +3688,19 @@ docs = ["Sphinx (>=6.0)", "myst-parser (>=2.0.0)", "sphinx-rtd-theme (>=1.1.0)"]
 optional = ["python-socks", "wsaccel"]
 test = ["websockets"]
 
+[[package]]
+name = "widgetsnbextension"
+version = "4.0.14"
+description = "Jupyter interactive widgets for Jupyter Notebook"
+optional = false
+python-versions = ">=3.7"
+groups = ["main"]
+files = [
+    {file = "widgetsnbextension-4.0.14-py3-none-any.whl", hash = "sha256:4875a9eaf72fbf5079dc372a51a9f268fc38d46f767cbf85c43a36da5cb9b575"},
+    {file = "widgetsnbextension-4.0.14.tar.gz", hash = "sha256:a3629b04e3edb893212df862038c7232f62973373869db5084aed739b437b5af"},
+]
+
 [metadata]
 lock-version = "2.1"
-python-versions = ">=3.12"
-content-hash = "d1bc24c95c21d72c3ad8fb5b6400c25e8aa79b60bb0fdfb900990a1271906f00"
+python-versions = ">=3.12,<3.14"
+content-hash = "3faa79c6d96650369e3a6ff45d1fae76d6b1499d2d0dab595642d7546f9f3d9c"
