@@ -17,7 +17,7 @@ dependencies = [
     "black (>=25.1.0,<26.0.0)",
     "mypy (>=1.17.1,<2.0.0)",
     "leidenalg (>=0.10.2,<0.11.0)",
-    "imbalanced-learn (>=0.13.0,<0.14.0)",
+    "imbalanced-learn (>=0.14.0,<0.15.0)",
     "numba (>=0.61.2,<0.62.0)",
     "jupyter (>=1.1.1,<2.0.0)",
     "ipywidgets (>=8.1.7,<9.0.0)",
@@ -26,7 +26,11 @@ dependencies = [
     "peptdeep (>=1.4.0,<2.0.0)",
     "biopython (>=1.85,<2.0)",
     "streamlit (>=1.48.1,<2.0.0)",
-    "scikit-learn (>=1.7.1,<2.0.0)"
+    "scikit-learn (>=1.7.1,<2.0.0)",
+    "dpks @ git+https://github.com/InfectionMedicineProteomics/DPKS@dpksml",
+    "muon (>=0.1.7,<0.2.0)",
+    "mofapy2 (>=0.7.2,<0.8.0)",
+    "mofax (>=0.3.7,<0.4.0)"
 ]
 
 
