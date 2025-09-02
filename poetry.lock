@@ -504,6 +504,26 @@ files = [
 ]
 
 [[package]]
+name = "category-encoders"
+version = "2.8.1"
+description = "A package for encoding categorical variables for machine learning"
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "category_encoders-2.8.1-py3-none-any.whl", hash = "sha256:ba77bde0a0afe13732b04997635b1ae82569e42c9696bc361c68674197988303"},
+    {file = "category_encoders-2.8.1.tar.gz", hash = "sha256:57af8a23bde3cf622ee7e17c11547011795e4d337839d40cbd16c36b67291b33"},
+]
+
+[package.dependencies]
+numpy = ">=1.14.0"
+pandas = ">=1.0.5"
+patsy = ">=0.5.1"
+scikit-learn = ">=1.6.0"
+scipy = ">=1.0.0"
+statsmodels = ">=0.9.0"
+
+[[package]]
 name = "certifi"
 version = "2025.8.3"
 description = "Python package for providing Mozilla's CA Bundle."
@@ -2724,6 +2744,28 @@ gmpy = ["gmpy2 (>=2.1.0a4) ; platform_python_implementation != \"PyPy\""]
 tests = ["pytest (>=4.6)"]
 
 [[package]]
+name = "mrmr-selection"
+version = "0.2.8"
+description = "minimum-Redundancy-Maximum-Relevance algorithm for feature selection"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "mrmr_selection-0.2.8-py3-none-any.whl", hash = "sha256:70723070d516802397e467075366dc3be07117de6378deee6821d5aba2686aa4"},
+]
+
+[package.dependencies]
+category-encoders = "*"
+jinja2 = "*"
+joblib = "*"
+numpy = ">=1.18.1"
+pandas = ">=1.0.3"
+polars = ">=0.12.5"
+scikit-learn = "*"
+scipy = "*"
+tqdm = "*"
+
+[[package]]
 name = "mudata"
 version = "0.3.2"
 description = "Multimodal data"
@@ -3766,6 +3808,50 @@ files = [
 [package.extras]
 dev = ["pre-commit", "tox"]
 testing = ["coverage", "pytest", "pytest-benchmark"]
+
+[[package]]
+name = "polars"
+version = "1.32.3"
+description = "Blazingly fast DataFrame library"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "polars-1.32.3-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:c7c472ea1d50a5104079cb64e34f78f85774bcc69b875ba8daf21233f4c70d42"},
+    {file = "polars-1.32.3-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:fd87275f0cc795e72a2030b58293198cfa748d4b009cf52218e27db5397ed07f"},
+    {file = "polars-1.32.3-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c9a9b9668ef310e5a77a7e7daa9c753874779c8da52e93f654bfd7953eb4b60b"},
+    {file = "polars-1.32.3-cp39-abi3-manylinux_2_24_aarch64.whl", hash = "sha256:c8f5d2f43b80b68e39bfaa2948ce632563633466576f12e74e8560d6481f5851"},
+    {file = "polars-1.32.3-cp39-abi3-win_amd64.whl", hash = "sha256:db56a7cb4898e173d62634e182f74bdff744c62be5470e0fe20df8d10f659af7"},
+    {file = "polars-1.32.3-cp39-abi3-win_arm64.whl", hash = "sha256:a2e3f87c60f54eefe67b1bebd3105918d84df0fd6d59cc6b870c2f16d2d26ca1"},
+    {file = "polars-1.32.3.tar.gz", hash = "sha256:57c500dc1b5cba49b0589034478db031815f3d57a20cb830b05ecee1a9ba56b1"},
+]
+
+[package.extras]
+adbc = ["adbc-driver-manager[dbapi]", "adbc-driver-sqlite[dbapi]"]
+all = ["polars[async,cloudpickle,database,deltalake,excel,fsspec,graph,iceberg,numpy,pandas,plot,pyarrow,pydantic,style,timezone]"]
+async = ["gevent"]
+calamine = ["fastexcel (>=0.9)"]
+cloudpickle = ["cloudpickle"]
+connectorx = ["connectorx (>=0.3.2)"]
+database = ["polars[adbc,connectorx,sqlalchemy]"]
+deltalake = ["deltalake (>=1.0.0)"]
+excel = ["polars[calamine,openpyxl,xlsx2csv,xlsxwriter]"]
+fsspec = ["fsspec"]
+gpu = ["cudf-polars-cu12"]
+graph = ["matplotlib"]
+iceberg = ["pyiceberg (>=0.7.1)"]
+numpy = ["numpy (>=1.16.0)"]
+openpyxl = ["openpyxl (>=3.0.0)"]
+pandas = ["pandas", "polars[pyarrow]"]
+plot = ["altair (>=5.4.0)"]
+polars-cloud = ["polars-cloud (>=0.0.1a1)"]
+pyarrow = ["pyarrow (>=7.0.0)"]
+pydantic = ["pydantic"]
+sqlalchemy = ["polars[pandas]", "sqlalchemy"]
+style = ["great-tables (>=0.8.0)"]
+timezone = ["tzdata ; platform_system == \"Windows\""]
+xlsx2csv = ["xlsx2csv (>=0.8.0)"]
+xlsxwriter = ["xlsxwriter"]
 
 [[package]]
 name = "prometheus-client"
@@ -6151,4 +6237,4 @@ test = ["coverage (>=7.10)", "hypothesis", "mypy", "packaging", "pytest (<8.4)",
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<3.14"
-content-hash = "7d299e073e1efcf931e02b4fe347798cc11290c1302bb3a0a9cdf0a329957506"
+content-hash = "9c4409c86541b4c7deb5b2541305e5388ed5a9fcabb7c072ef73075e4fefbf3c"
