@@ -32,7 +32,14 @@ dependencies = [
     "mofapy2 (>=0.7.2,<0.8.0)",
     "mofax (>=0.3.7,<0.4.0)",
     "mrmr-selection (>=0.2.8,<0.3.0)",
-    "colorcet (>=3.1.0,<4.0.0)"
+    "colorcet (>=3.1.0,<4.0.0)",
+    "openpyxl (>=3.1.5,<4.0.0)",
+    "directlfq (>=0.3.2,<0.4.0)",
+    "statannotations (>=0.7.2,<0.8.0)",
+    "shap (>=0.48.0,<0.49.0)",
+    "lifelines (>=0.30.0,<0.31.0)",
+    "xgboost (>=3.0.5,<4.0.0)",
+    "dfmodel @ git+https://github.com/InfectionMedicineProteomics/DFModel.git@network-expansion"
 ]
 
 
